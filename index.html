@@ -2,21 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lab 02 - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 02 | Web Technologies</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Welcome to My Lab 02 Website</h1>
-    <p>Name: Ahsan Siddiqui</p>
-    <p>Course: CS 224L Web Technologies</p>
+    <!-- Header -->
+    <header>
+        <h1>Ahsan Siddiqui</h1>
+        <p>BS Computer Science | Web Technologies Lab</p>
+        <p>University of Engineering & Technology, Peshawar</p>
+    </header>
 
-    <h2>Lab Pages</h2>
-    <ul>
-        <li><a href="profile.html">Profile Page</a></li>
-        <li><a href="schedule.html">Course Schedule</a></li>
-        <li><a href="navigation.html">Navigation Menu</a></li>
-        <li><a href="registration.html">Registration Form</a></li>
-    </ul>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="navigation.html">Navigation</a>
+        <a href="registration.html">Registration</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+    </nav>
+
+    <!-- Main Content -->
+    <section>
+        <h2>About This Lab</h2>
+        <p>
+            This website is created as part of Lab 02 for the Web Technologies course.
+            It demonstrates basic HTML structure, tables, forms, navigation, and GitHub Pages deployment.
+        </p>
+    </section>
+
+    <section>
+        <h2>Lab Exercises</h2>
+        <ul>
+            <li><a href="profile.html">Task 1: Personal Profile</a></li>
+            <li><a href="schedule.html">Task 2: Course Schedule</a></li>
+            <li><a href="navigation.html">Task 3: Navigation Menu</a></li>
+            <li><a href="registration.html">Task 4: Registration Form</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Ahsan Siddiqui | UET Peshawar</p>
+    </footer>
 
 </body>
 </html>
