@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            width: 400px;
+            margin: auto;
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <!-- Name -->
+        <label>Full Name:</label><br>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <!-- Registration Number -->
+        <label>Registration Number:</label><br>
+        <input type="text" name="regno" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <!-- Password -->
+        <label>Password:</label><br>
+        <input type="password" name="password" required>
+        <br><br>
+
+        <!-- Course Dropdown -->
+        <label>Select Course:</label><br>
+        <select name="course">
+            <option>Web Technologies</option>
+            <option>OOP</option>
+            <option>Database Systems</option>
+            <option>Operating Systems</option>
+        </select>
+        <br><br>
+
+        <!-- Semester Radio Buttons -->
+        <label>Semester:</label><br>
+        <input type="radio" name="semester" value="1st"> 1st
+        <input type="radio" name="semester" value="2nd"> 2nd
+        <input type="radio" name="semester" value="3rd"> 3rd
+        <br><br>
+
+        <!-- Terms and Conditions -->
+        <input type="checkbox" required>
+        I agree to the terms and conditions
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
